@@ -3,8 +3,8 @@ pipeline {
     stages {
         stage('giturl') {
             steps {
-                git url: 'https://github.com/wakaleo/game-of-life.git'
-                    branch: 'declarative'
+                git url: 'https://github.com/venuchowgani/testgol.git'
+                    branch: 'main'
             }
         }
         stage('package') {
