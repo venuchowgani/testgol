@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('giturl') {
             steps {
-                git url: 'https://github.com/venuchowgani/testgol.git'
+                git url: 'https://github.com/venuchowgani/testgol.git',
                     branch: 'main'
             }
         }
